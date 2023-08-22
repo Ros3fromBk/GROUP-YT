@@ -21,12 +21,14 @@ const ShowPage = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        if (name && comment) {
-            const newComment = { name, comment }
-            setComments([...comments, newComment])
-            setName("")
-            setComment("")
+        if (name.trim() === "" || comment.trim() === "") {
+            alert("Please fill out both Name and Comment fields.")
+            return
         }
+        const newComment = { name, comment }
+        setComments([...comments, newComment])
+        setName("")
+        setComment("")
     }
 
     return (
