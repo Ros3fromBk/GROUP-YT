@@ -60,7 +60,15 @@ NAVBAR
         * Bootstrap
 
 # 3. Getting Started
-    This is a project which should start by setting up a project on your local machine.  This project should help you to become a better coder and to gain skills in working with a coding team. The focus is on the ability to collobate with others and use the skills and tools you have gained to be a productive member of a software engineering team.  
+    This is a project which should start by setting up a project on your local machine.  This project should help you to become a better coder and to gain skills in working with a coding team. The focus is on the ability to collobate with others, use your strenths to improve yourself, and be honest and open about your perceived weaknesses.  You should focus on being a productive member of a software engineering teamm and you should also focus on learning/evolving/growing.  
+      # Prerequisites
+      1. You need to have Node Package Manager (NPM) installed on your device.
+      2. You need to be comfortable using the Command Line Interface (CLI).  
+        #For Apple devices
+          *That will be the Terminal/Iterm/etc...  
+        #For Microsoft devices
+          *Open the Command Prompt
+        Both Apple devices and MS devices use Virtual Studio Code (VSC)
 
   
 
