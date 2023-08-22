@@ -46,9 +46,12 @@ NAVBAR
    -->
 
 
+-- Yulonda Working on README.md File --
 # 1. About the Project
     This is a class project in which a group of classmates have to work together to produce a working application/project. 
-    The team should have at least two members.  All members of the team should contribute in some way to the project, which should be noted with commits, pushes, and pulls.   
+    The team should have at least two members.  All members of the team should contribute in some way to the project, which should be noted with commits, pushes, pulls, and team discussions.  
+    
+    This class project uses the YouTube API to present up to eight videos depending on what is placed in the search bar.  
 
 
 # 2. Built With
