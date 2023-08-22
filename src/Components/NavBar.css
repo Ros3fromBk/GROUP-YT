@@ -1,27 +1,27 @@
-span{
-    color: rgb(24, 96, 155)
+span {
+  color: rgb(24, 96, 155);
 }
 
-.headerForAbout{
-    position: relative;
-    top: 20px;
+.headerForAbout {
+  position: relative;
+  top: 20px;
 }
 
-header{
-    border: 2px solid black;
-    border-radius: 100px;
-
+header {
+  border: 2px solid black;
+  border-radius: 100px;
+  background-color: azure;
 }
 
-li{
-    font-size: larger;
+li {
+  font-size: larger;
 }
 
-li:hover{
-   
-    font-size: x-large;
+li:hover {
+  font-size: x-large;
 }
 
-.nav-link:hover{
-color:green
+.nav-link:hover {
+  
+ font-weight: bolder;
 }
