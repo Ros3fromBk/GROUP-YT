@@ -45,8 +45,6 @@ NAVBAR
 
    -->
 
-# Yulonda's work in Progress with this README.md file
-# Currently working ...
 
 # 1. About the Project
     This is a class project in which a group of classmates have to work together to produce a working application/project. 
