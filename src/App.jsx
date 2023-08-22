@@ -15,9 +15,9 @@ function App() {
     <>
 
       <Router>
-
+  
         <NavBar />
-
+    {/* <img className="banner" src="https://typecast.ai/learn/wp-content/uploads/2022/08/22q3_39_main.jpg"/> */}
         <div>
           <SearchBar onSearch={handleSearch} />
           <div className="video-container">

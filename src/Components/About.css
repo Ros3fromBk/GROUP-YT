@@ -1,64 +1,66 @@
-.AboutMe{
-    display:flex;
-    /* flex-direction:column; */
-    padding: 10px;
-    align-items: center;
-    /* border: 6px solid black; */
-    row-gap: 50px;
-    width: 80%;
-    /* position: relative;
+.AboutMe {
+  display: flex;
+  /* flex-direction:column; */
+  padding: 10px;
+  align-items: center;
+  /* border: 6px solid black; */
+  row-gap: 50px;
+  width: 80%;
+  /* position: relative;
     top: 35px; */
-    /* border-radius: 50px; */
-    /* background-color: rgb(20, 112, 143); */
-    justify-content: space-around;
-   
+  /* border-radius: 50px; */
+  /* background-color: rgb(20, 112, 143); */
+  justify-content: space-around;
+
 }
 
-
-
-img{
-    height: 200px;
-    width: 200px;
+img {
+  height: 200px;
+  width: 200px;
 }
 
-.headerForAbout{
-    color: rgba(255, 226, 167, 1);
-    border-bottom: 3px solid black;
+.headerForAbout {
+  color: rgba(255, 226, 167, 1);
+  border-bottom: 3px solid black;
 }
 
-.space{
-    display:flex;
-    flex-direction:column;
-    padding: 9px;
-    align-items: center;
-    border: 6px solid black;
-    row-gap: 50px;
-    width: 100%;
-    position: relative;
-    top: 35px;
-    border-radius: 50px;
-    background-color: rgb(20, 112, 143);
-    animation-name: movement;
-    animation-duration: 5s;
-   
+.space {
+  display: flex;
+  flex-direction: column;
+  padding: 9px;
+  align-items: center;
+  border: 6px solid black;
+  row-gap: 50px;
+  width: 100%;
+  position: relative;
+  top: 35px;
+  border-radius: 50px;
+  background-color: rgb(0, 0, 0);
+  animation-name: movement;
+  animation-duration: 5s;
+  /* height: 700px; */
+  color: rgb(0, 0, 0)
 }
 
-.space:hover{
-    background-color: burlywood;
+.space:hover {
+  background-color: rgb(235, 231, 227);
 }
 
 @keyframes movement {
-from{left: -2000px}
-to{left: 0px}
+  from {
+    left: -2000px;
+  }
+  to {
+    left: 0px;
+  }
 }
 
-
-.github{
- height: 50%;
- width:50%
+.github {
+  height: 50%;
+  width: 50%;
 }
 
-.github:hover{
-    background-color:white;
-    border-radius: 100%;
+.github:hover {
+  background-color: rgb(225, 73, 73);
+  border-radius: 100%;
 }

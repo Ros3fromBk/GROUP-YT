@@ -22,7 +22,7 @@ const SearchBar = ({ onSearch }) => {
                     <div>
                         <div className="row">
                             <label htmlFor="searchBar" className="col-auto col-form-label">
-                                Search YouTube
+                                {/* Search YouTube */}
                             </label>
                             <div className="col">
                                 <input

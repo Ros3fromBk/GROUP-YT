@@ -8,4 +8,28 @@
 
 body{
   background-color: rgb(155, 183, 236);
+  /* background-image: url(https://typecast.ai/learn/wp-content/uploads/2022/08/22q3_39_main.jpg); */
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/311/141/original/abstract-black-grunge-banner-background-free-vector.jpg);
+    background-size:cover;
+
+}
+
+.banner{
+border-radius: 45px;
+width: 100%;
+}
+
+.video-container{
+  /* display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  /* align-content: center;
+  justify-content: center; */ 
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 20px;
+  border: 2px solid black;
+  background-color: white;
+
 }

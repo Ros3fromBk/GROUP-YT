@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { useParams } from "react-router-dom"
+import "../Components/ShowPage.css"
 
 const ShowPage = () => {
 
@@ -32,18 +33,19 @@ const ShowPage = () => {
     return (
         <div>
             {videoDetails && (
-                <div>
+                <div className="youtube">
                     <h2>{videoDetails.snippet.title}</h2>
                     <iframe
                         width="550"
                         height="300"
                         src={`https://www.youtube-nocookie.com/embed/${videoId}?privacy-enhanced=1`}
+                        color="white"
                         title={videoDetails.snippet.title}
                         allowFullScreen
                     ></iframe>
                 </div>
             )}
-            <div>
+            <div className="viewer-comments">
                 <h3>Comments</h3>
                 <ul>
                     {comments.map((comment, index) => (
@@ -57,7 +59,7 @@ const ShowPage = () => {
             <div className='comment-form'>
                 <h3>Add a Comment</h3>
                 <form onSubmit={handleSubmit}>
-                    <div>
+                    <div className="comment-name">
                         <label htmlFor="name">Name:</label>
                         <input
                             type="text"
@@ -66,7 +68,7 @@ const ShowPage = () => {
                             onChange={e => setName(e.target.value)}
                         />
                     </div>
-                    <div>
+                    <div className="comment-comment">
                         <label htmlFor="comment">Comment:</label>
                         <textarea
                             id="comment"
