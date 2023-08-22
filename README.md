@@ -45,6 +45,21 @@ NAVBAR
 
    -->
 
+# Yulonda's work in Progress with this README.md file
+# Currently working ...
+
+# 1. About the Project
+    This is a class project in which a group of classmates have to work together to produce a working application/project. 
+    The team should have at least two members.  All members of the team should contribute in some way to the project, which should be noted with commits, pushes, and pulls.   
+
+
+# 2. Built With
+    This project is built with using the following framworks/libraries:
+        * React
+        * Bootstrap
+
+# 3. Getting Started
+    This is a project which should start by setting up a project on your local machine.  This project should help you to become a better coder and to gain skills in working with a coding team. The focus is on the ability to collobate with others and use the skills and tools you have gained to be a productive member of a software engineering team.  
 
   
 
