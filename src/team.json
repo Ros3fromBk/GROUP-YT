@@ -21,6 +21,7 @@
         "fact": "Salvadorean backround with a passion for sports, cryptocurrency & gaming"
     },
     {
+
         "name": "Rose Ash",
         "pic": "https://avatars.githubusercontent.com/u/131703017?v=4",
         "hometown": "Brooklyn, NY",
@@ -34,7 +35,6 @@
         "github": "https://github.com/mpv-i",
         "fact": ""
     }
-<<<<<<< HEAD
    ,
 
     
@@ -44,6 +44,4 @@
     "hometown": "",
     "fact": ""
         }
-=======
->>>>>>> d1fc6f61beb88fbd024315ebb9b00232e93e788f
 ]
