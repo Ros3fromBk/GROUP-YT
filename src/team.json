@@ -1,29 +1,40 @@
 [
     {
-    "name": "Jeremy Montes",
-    "pic": "https://avatars.githubusercontent.com/u/129802356?v=4",
-    "hometown": "Harlem, USA",
-    "fact": "Haitian bred with a passion for knowledge, gaming, and fashion."
+        "name": "Jeremy Montes",
+        "pic": "https://avatars.githubusercontent.com/u/129802356?v=4",
+        "hometown": "Harlem, USA",
+        "github": "https://github.com/JBMontes",
+        "fact": "Haitian bred with a passion for knowledge, gaming, and fashion."
     },
     {
-    "name": "Yulonda Wyatt",
-    "pic": "https://avatars.githubusercontent.com/u/131708001?v=4",
-    "hometown": "",
-    "fact": ""
+        "name": "Yulonda Wyatt",
+        "pic": "https://avatars.githubusercontent.com/u/131708001?v=4",
+        "hometown": "",
+        "github": "https://github.com/yulondawyatt",
+        "fact": ""
     },
     {
-     "name": "Oscar Quintanilla",
-     "pic": "https://avatars.githubusercontent.com/u/127880951?v=4",
-    "hometown": "Brentwood, NY",
-    "fact": "Salvadorean backround with a passion for sports, cryptocurrency & gaming"
+        "name": "Oscar Quintanilla",
+        "pic": "https://avatars.githubusercontent.com/u/127880951?v=4",
+        "hometown": "Brentwood, NY",
+        "github": "https://github.com/OscarQ5",
+        "fact": "Salvadorean backround with a passion for sports, cryptocurrency & gaming"
     },
     {
-    "name": "Rose Ash",
-    "pic": "https://avatars.githubusercontent.com/u/131703017?v=4",
-    "hometown": "Brooklyn, NY",
-    "fact": "Caribbean Heritage , passion for style and assistance."
-
+        "name": "Rose Ash",
+        "pic": "https://avatars.githubusercontent.com/u/131703017?v=4",
+        "hometown": "Brooklyn, NY",
+        "github": "https://github.com/Ros3fromBk",
+        "fact": "Caribbean Heritage , passion for style and assistance."
+    },
+    {
+        "name": "Monica Perez-Valle",
+        "pic": "https://avatars.githubusercontent.com/u/131721834?v=4",
+        "hometown": "",
+        "github": "https://github.com/mpv-i",
+        "fact": ""
     }
+<<<<<<< HEAD
    ,
 
     
@@ -33,4 +44,6 @@
     "hometown": "",
     "fact": ""
         }
+=======
+>>>>>>> d1fc6f61beb88fbd024315ebb9b00232e93e788f
 ]
