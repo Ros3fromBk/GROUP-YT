@@ -40,7 +40,8 @@ function App() {
     
 
         <Routes>
-          <Route path="/" element={<VideoPage searchResults={searchResults} toggleFavorite={toggleFavorite} favoriteVideoIds={favoriteVideoIds} />} />
+          <Route path="/" element={searchResults.length > 0 ? 
+          <VideoPage searchResults={searchResults} toggleFavorite={toggleFavorite} favoriteVideoIds={favoriteVideoIds} /> : <div></div>} />
           <Route path="/AboutMe" element={<AboutList />} />
           <Route path="/video/:videoId" element={<ShowPage />} />
           <Route path="/favorites" element={<FavoritesPage favoriteVideoIds={favoriteVideoIds} searchResults={searchResults} />} />

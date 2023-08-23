@@ -2,7 +2,6 @@ import "../Components/NavBar.css"
 import { Link } from "react-router-dom"
 
 const NavBar = () => {
-  // console.log()
   return (
     <>
       <header>
@@ -25,9 +24,6 @@ const NavBar = () => {
           </div>
         </nav>
       </header>
-
-      {/* <h1 className="search"> Search For What You Want To See </h1> */}
-
     </>
   )
 }
