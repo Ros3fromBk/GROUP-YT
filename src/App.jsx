@@ -31,15 +31,15 @@ function App() {
         {/* <img className="banner" src="https://typecast.ai/learn/wp-content/uploads/2022/08/22q3_39_main.jpg"/> */}
         <div>
           <SearchBar onSearch={handleSearch} />
+
         </div>
           <VideoPage searchResults={searchResults} toggleFavorite={toggleFavorite} favoriteVideoIds={favoriteVideoIds}/>
 
         <Routes>
           <Route path="/" element={<div></div>} />
-          
           <Route path="/AboutMe" element={<AboutList />} />
           <Route path="/video/:videoId" element={<ShowPage />} />
-          <Route path="/favorites" element={<FavoritesPage favoriteVideoIds={favoriteVideoIds} searchResults={searchResults} />}/>
+          <Route path="/favorites" element={<FavoritesPage favoriteVideoIds={favoriteVideoIds} searchResults={searchResults} />} />
         </Routes>
       </Router>
 
