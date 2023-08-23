@@ -12,7 +12,12 @@ function App() {
 
   const [searchResults, setSearchResults] = useState([])
   const [favoriteVideoIds, setFavoriteVideoIds] = useState([])
-  const handleSearch = (items) => setSearchResults(items)
+  const handleSearch = (items) => {
+    setSearchResults(items)
+    if (window.location.pathname !== "/") {
+      setSearchResults([]);
+    }
+  }
 
   const toggleFavorite = (videoId) => {
     if (favoriteVideoIds.includes(videoId)) {
@@ -35,8 +40,7 @@ function App() {
     
 
         <Routes>
-          <Route path="/" element={<div></div>} />
-          <Route path= "/search/:query" element={<VideoPage searchResults={searchResults} toggleFavorite={toggleFavorite} favoriteVideoIds={favoriteVideoIds}/>}/>
+          <Route path="/" element={<VideoPage searchResults={searchResults} toggleFavorite={toggleFavorite} favoriteVideoIds={favoriteVideoIds} />} />
           <Route path="/AboutMe" element={<AboutList />} />
           <Route path="/video/:videoId" element={<ShowPage />} />
           <Route path="/favorites" element={<FavoritesPage favoriteVideoIds={favoriteVideoIds} searchResults={searchResults} />} />
