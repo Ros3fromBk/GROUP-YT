@@ -4,7 +4,7 @@ import "./AboutList.css"
 
 function AboutList() {
 
-    let listOfEngineers = team.map((engineers) => { return (<About engineers={engineers} />) })
+    let listOfEngineers = team.map((engineers, index) => { return (<About key={index} engineers={engineers} />) })
 
     return (
 
