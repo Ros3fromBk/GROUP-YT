@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import "../Components/SearchBar.css"
+import { Link } from 'react-router-dom'
 const SearchBar = ({ onSearch }) => {
 
     const [query, setQuery] = useState("")
@@ -36,9 +37,10 @@ const SearchBar = ({ onSearch }) => {
                                 />
                             </div>
                             <div className="col-auto">
-                                <button type="submit" className="btn btn-danger">
-                                    Search
-                                </button>
+                          
+                                <Link to="/search/:query" type="submit" className="btn btn-danger">Submit</Link>
+                                 
+                              
                             </div>
                         </div>
                     </div>
