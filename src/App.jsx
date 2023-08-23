@@ -37,7 +37,7 @@ function App() {
                   <img src={video.snippet.thumbnails.medium.url} alt={video.snippet.title} />
                 </a>
                 <p>{video.snippet.title}</p>
-                <button onClick={() => toggleFavorite(video.id.videoId)}>
+                <button className="favoriteButton" onClick={() => toggleFavorite(video.id.videoId)}>
                   {favoriteVideoIds.includes(video.id.videoId) ? 'Unfavorite' : 'Favorite'}
                 </button>
               </div>
@@ -47,10 +47,9 @@ function App() {
 
         <Routes>
           <Route path="/" element={<div></div>} />
-          
           <Route path="/AboutMe" element={<AboutList />} />
           <Route path="/video/:videoId" element={<ShowPage />} />
-          <Route path="/favorites" element={<FavoritesPage favoriteVideoIds={favoriteVideoIds} searchResults={searchResults} />}/>
+          <Route path="/favorites" element={<FavoritesPage favoriteVideoIds={favoriteVideoIds} searchResults={searchResults} />} />
         </Routes>
       </Router>
 
