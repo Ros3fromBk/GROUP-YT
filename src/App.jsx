@@ -5,6 +5,7 @@ import NavBar from './Components/NavBar.jsx'
 import AboutList from './Components/AboutList.jsx';
 import ShowPage from './Components/ShowPage.jsx'
 import FavoritesPage from './Components/FavoritesPage.jsx';
+import VideoPage from './Components/VideoPage.jsx';
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 function App() {
@@ -30,20 +31,9 @@ function App() {
         {/* <img className="banner" src="https://typecast.ai/learn/wp-content/uploads/2022/08/22q3_39_main.jpg"/> */}
         <div>
           <SearchBar onSearch={handleSearch} />
-          <div className="video-container">
-            {searchResults.map((video) => (
-              <div key={video.id.videoId} className="video-wrapper">
-                <a href={`/video/${video.id.videoId}`}>
-                  <img src={video.snippet.thumbnails.medium.url} alt={video.snippet.title} />
-                </a>
-                <p>{video.snippet.title}</p>
-                <button className="favoriteButton" onClick={() => toggleFavorite(video.id.videoId)}>
-                  {favoriteVideoIds.includes(video.id.videoId) ? 'Unfavorite' : 'Favorite'}
-                </button>
-              </div>
-            ))}
-          </div>
+
         </div>
+          <VideoPage searchResults={searchResults} toggleFavorite={toggleFavorite} favoriteVideoIds={favoriteVideoIds}/>
 
         <Routes>
           <Route path="/" element={<div></div>} />
